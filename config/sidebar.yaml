@@ -33,14 +33,56 @@ sidebar:
         name: LuNewspaper
         package: "react-icons/lu"
 
-    - title: Movies
-      url: "movies"
+    - title: Hobbies Zone
+      url: "hobbies"
       icon:
-        name: LuClapperboard
+        name: LuHeart
         package: "react-icons/lu"
+      children:
+        - title: Artist/Inspiration
+          url: "hobbies/artist-inspiration"
+          icon:
+            name: LuSparkles
+            package: "react-icons/lu"
+        - title: Musics
+          url: "hobbies/musics"
+          icon:
+            name: LuMusic
+            package: "react-icons/lu"
+        - title: Arts
+          url: "hobbies/arts"
+          icon:
+            name: LuBrush
+            package: "react-icons/lu"
+        - title: Movies/Films
+          url: "hobbies/movies-films"
+          icon:
+            name: LuClapperboard
+            package: "react-icons/lu"
 
-    - title: Music
-      url: "music"
+    - title: Art Zone
+      url: "art-zone"
       icon:
-        name: LuMusic
+        name: LuPalette
         package: "react-icons/lu"
+      children:
+        - title: Home
+          url: "art-zone/home"
+          icon:
+            name: LuHome
+            package: "react-icons/lu"
+        - title: Fansite Gallery
+          url: "art-zone/fansite-gallery"
+          icon:
+            name: LuImage
+            package: "react-icons/lu"
+        - title: Design Gallery
+          url: "art-zone/design-gallery"
+          icon:
+            name: LuLayoutGrid
+            package: "react-icons/lu"
+        - title: Retouch Gallery
+          url: "art-zone/retouch-gallery"
+          icon:
+            name: LuWand2
+            package: "react-icons/lu"
